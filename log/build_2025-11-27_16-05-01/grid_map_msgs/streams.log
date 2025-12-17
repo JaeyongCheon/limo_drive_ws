@@ -1,0 +1,345 @@
+[0.034s] Invoking command in '/home/wego/drive_ws/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:/home/wego/wego_ws/install/yolo_bringup:/home/wego/wego_ws/install/yolo_msgs:/home/wego/wego_ws/install/ydlidar_ros2_driver:/home/wego/wego_ws/install/wego_msgs:/home/wego/wego_ws/install/wego_2d_nav:/home/wego/wego_ws/install/wego:/home/wego/wego_ws/install/robot_localization:/home/wego/wego_ws/install/orbbec_description:/home/wego/wego_ws/install/orbbec_camera:/home/wego/wego_ws/install/orbbec_camera_msgs:/home/wego/wego_ws/install/nav2_bringup:/home/wego/wego_ws/install/navigation2:/home/wego/wego_ws/install/nav2_smoother:/home/wego/wego_ws/install/nav2_rotation_shim_controller:/home/wego/wego_ws/install/nav2_graceful_controller:/home/wego/wego_ws/install/nav2_dwb_controller:/home/wego/wego_ws/install/nav2_controller:/home/wego/wego_ws/install/dwb_plugins:/home/wego/wego_ws/install/dwb_critics:/home/wego/wego_ws/install/dwb_core:/home/wego/wego_ws/install/nav_2d_utils:/home/wego/wego_ws/install/dwb_msgs:/home/wego/wego_ws/install/nav_2d_msgs:/home/wego/wego_ws/install/nav2_waypoint_follower:/home/wego/wego_ws/install/nav2_theta_star_planner:/home/wego/wego_ws/install/nav2_smac_planner:/home/wego/wego_ws/install/nav2_route:/home/wego/wego_ws/install/nav2_regulated_pure_pursuit_controller:/home/wego/wego_ws/install/nav2_planner:/home/wego/wego_ws/install/nav2_navfn_planner:/home/wego/wego_ws/install/nav2_mppi_controller:/home/wego/wego_ws/install/nav2_constrained_smoother:/home/wego/wego_ws/install/nav2_bt_navigator:/home/wego/wego_ws/install/nav2_behaviors:/home/wego/wego_ws/install/nav2_core:/home/wego/wego_ws/install/nav2_collision_monitor:/home/wego/wego_ws/install/costmap_queue:/home/wego/wego_ws/install/nav2_costmap_2d:/home/wego/wego_ws/install/nav2_voxel_grid:/home/wego/wego_ws/install/nav2_velocity_smoother:/home/wego/wego_ws/install/nav2_rviz_plugins:/home/wego/wego_ws/install/nav2_map_server:/home/wego/wego_ws/install/nav2_lifecycle_manager:/home/wego/wego_ws/install/nav2_behavior_tree:/home/wego/wego_ws/install/nav2_amcl:/home/wego/wego_ws/install/nav2_util:/home/wego/wego_ws/install/nav2_msgs:/home/wego/wego_ws/install/nav2_common:/home/wego/wego_ws/install/limo_base:/home/wego/wego_ws/install/limo_msgs:/home/wego/wego_ws/install/limo_description:/home/wego/wego_ws/install/lift_ctr:/home/wego/wego_ws/install/dl_ros2_msgs:/home/wego/wego_ws/install/yolo_ros:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake /home/wego/drive_ws/src/grid_map/grid_map_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wego/drive_ws/install/grid_map_msgs
+[0.191s] -- The C compiler identification is GNU 11.4.0
+[0.345s] -- The CXX compiler identification is GNU 11.4.0
+[0.368s] -- Detecting C compiler ABI info
+[0.501s] -- Detecting C compiler ABI info - done
+[0.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.527s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.538s] -- Detecting CXX compiler ABI info
+[0.689s] -- Detecting CXX compiler ABI info - done
+[0.714s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.715s] -- Detecting CXX compile features
+[0.716s] -- Detecting CXX compile features - done
+[0.743s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.155s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.313s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.517s] -- Found grid_map_cmake_helpers: 2.4.0 (/home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[1.529s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.693s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.723s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.762s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.963s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.000s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.036s] -- Setting build type to Release as none was specified.
+[3.136s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.541s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.555s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.635s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.636s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.636s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.636s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.691s] -- Found PythonExtra: .so  
+[5.925s] -- Configuring done
+[6.020s] -- Generating done
+[6.047s] -- Build files have been written to: /home/wego/drive_ws/build/grid_map_msgs
+[6.067s] Invoked command in '/home/wego/drive_ws/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:/home/wego/wego_ws/install/yolo_bringup:/home/wego/wego_ws/install/yolo_msgs:/home/wego/wego_ws/install/ydlidar_ros2_driver:/home/wego/wego_ws/install/wego_msgs:/home/wego/wego_ws/install/wego_2d_nav:/home/wego/wego_ws/install/wego:/home/wego/wego_ws/install/robot_localization:/home/wego/wego_ws/install/orbbec_description:/home/wego/wego_ws/install/orbbec_camera:/home/wego/wego_ws/install/orbbec_camera_msgs:/home/wego/wego_ws/install/nav2_bringup:/home/wego/wego_ws/install/navigation2:/home/wego/wego_ws/install/nav2_smoother:/home/wego/wego_ws/install/nav2_rotation_shim_controller:/home/wego/wego_ws/install/nav2_graceful_controller:/home/wego/wego_ws/install/nav2_dwb_controller:/home/wego/wego_ws/install/nav2_controller:/home/wego/wego_ws/install/dwb_plugins:/home/wego/wego_ws/install/dwb_critics:/home/wego/wego_ws/install/dwb_core:/home/wego/wego_ws/install/nav_2d_utils:/home/wego/wego_ws/install/dwb_msgs:/home/wego/wego_ws/install/nav_2d_msgs:/home/wego/wego_ws/install/nav2_waypoint_follower:/home/wego/wego_ws/install/nav2_theta_star_planner:/home/wego/wego_ws/install/nav2_smac_planner:/home/wego/wego_ws/install/nav2_route:/home/wego/wego_ws/install/nav2_regulated_pure_pursuit_controller:/home/wego/wego_ws/install/nav2_planner:/home/wego/wego_ws/install/nav2_navfn_planner:/home/wego/wego_ws/install/nav2_mppi_controller:/home/wego/wego_ws/install/nav2_constrained_smoother:/home/wego/wego_ws/install/nav2_bt_navigator:/home/wego/wego_ws/install/nav2_behaviors:/home/wego/wego_ws/install/nav2_core:/home/wego/wego_ws/install/nav2_collision_monitor:/home/wego/wego_ws/install/costmap_queue:/home/wego/wego_ws/install/nav2_costmap_2d:/home/wego/wego_ws/install/nav2_voxel_grid:/home/wego/wego_ws/install/nav2_velocity_smoother:/home/wego/wego_ws/install/nav2_rviz_plugins:/home/wego/wego_ws/install/nav2_map_server:/home/wego/wego_ws/install/nav2_lifecycle_manager:/home/wego/wego_ws/install/nav2_behavior_tree:/home/wego/wego_ws/install/nav2_amcl:/home/wego/wego_ws/install/nav2_util:/home/wego/wego_ws/install/nav2_msgs:/home/wego/wego_ws/install/nav2_common:/home/wego/wego_ws/install/limo_base:/home/wego/wego_ws/install/limo_msgs:/home/wego/wego_ws/install/limo_description:/home/wego/wego_ws/install/lift_ctr:/home/wego/wego_ws/install/dl_ros2_msgs:/home/wego/wego_ws/install/yolo_ros:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake /home/wego/drive_ws/src/grid_map/grid_map_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wego/drive_ws/install/grid_map_msgs
+[6.081s] Invoking command in '/home/wego/drive_ws/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:/home/wego/wego_ws/install/yolo_bringup:/home/wego/wego_ws/install/yolo_msgs:/home/wego/wego_ws/install/ydlidar_ros2_driver:/home/wego/wego_ws/install/wego_msgs:/home/wego/wego_ws/install/wego_2d_nav:/home/wego/wego_ws/install/wego:/home/wego/wego_ws/install/robot_localization:/home/wego/wego_ws/install/orbbec_description:/home/wego/wego_ws/install/orbbec_camera:/home/wego/wego_ws/install/orbbec_camera_msgs:/home/wego/wego_ws/install/nav2_bringup:/home/wego/wego_ws/install/navigation2:/home/wego/wego_ws/install/nav2_smoother:/home/wego/wego_ws/install/nav2_rotation_shim_controller:/home/wego/wego_ws/install/nav2_graceful_controller:/home/wego/wego_ws/install/nav2_dwb_controller:/home/wego/wego_ws/install/nav2_controller:/home/wego/wego_ws/install/dwb_plugins:/home/wego/wego_ws/install/dwb_critics:/home/wego/wego_ws/install/dwb_core:/home/wego/wego_ws/install/nav_2d_utils:/home/wego/wego_ws/install/dwb_msgs:/home/wego/wego_ws/install/nav_2d_msgs:/home/wego/wego_ws/install/nav2_waypoint_follower:/home/wego/wego_ws/install/nav2_theta_star_planner:/home/wego/wego_ws/install/nav2_smac_planner:/home/wego/wego_ws/install/nav2_route:/home/wego/wego_ws/install/nav2_regulated_pure_pursuit_controller:/home/wego/wego_ws/install/nav2_planner:/home/wego/wego_ws/install/nav2_navfn_planner:/home/wego/wego_ws/install/nav2_mppi_controller:/home/wego/wego_ws/install/nav2_constrained_smoother:/home/wego/wego_ws/install/nav2_bt_navigator:/home/wego/wego_ws/install/nav2_behaviors:/home/wego/wego_ws/install/nav2_core:/home/wego/wego_ws/install/nav2_collision_monitor:/home/wego/wego_ws/install/costmap_queue:/home/wego/wego_ws/install/nav2_costmap_2d:/home/wego/wego_ws/install/nav2_voxel_grid:/home/wego/wego_ws/install/nav2_velocity_smoother:/home/wego/wego_ws/install/nav2_rviz_plugins:/home/wego/wego_ws/install/nav2_map_server:/home/wego/wego_ws/install/nav2_lifecycle_manager:/home/wego/wego_ws/install/nav2_behavior_tree:/home/wego/wego_ws/install/nav2_amcl:/home/wego/wego_ws/install/nav2_util:/home/wego/wego_ws/install/nav2_msgs:/home/wego/wego_ws/install/nav2_common:/home/wego/wego_ws/install/limo_base:/home/wego/wego_ws/install/limo_msgs:/home/wego/wego_ws/install/limo_description:/home/wego/wego_ws/install/lift_ctr:/home/wego/wego_ws/install/dl_ros2_msgs:/home/wego/wego_ws/install/yolo_ros:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --build /home/wego/drive_ws/build/grid_map_msgs -- -j6 -l6
+[6.286s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.315s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.395s] [  2%] Built target ament_cmake_python_symlink_grid_map_msgs
+[7.544s] running egg_info
+[7.549s] creating grid_map_msgs.egg-info
+[7.620s] writing grid_map_msgs.egg-info/PKG-INFO
+[7.621s] writing dependency_links to grid_map_msgs.egg-info/dependency_links.txt
+[7.622s] writing top-level names to grid_map_msgs.egg-info/top_level.txt
+[7.622s] writing manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[7.804s] reading manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[7.808s] writing manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[7.959s] [  2%] Built target ament_cmake_python_build_grid_map_msgs_egg
+[9.799s] [  4%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/msg/detail/grid_map_info__functions.c.o[0m
+[9.811s] [  5%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/msg/detail/grid_map__functions.c.o[0m
+[9.818s] [  7%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/set_grid_map__functions.c.o[0m
+[9.943s] [  8%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/get_grid_map__functions.c.o[0m
+[9.991s] [  9%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/get_grid_map_info__functions.c.o[0m
+[10.309s] [ 11%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/process_file__functions.c.o[0m
+[10.358s] [ 11%] Built target grid_map_msgs__cpp
+[10.419s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.447s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.635s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.926s] [ 16%] [32m[1mLinking C shared library libgrid_map_msgs__rosidl_generator_c.so[0m
+[11.139s] [ 16%] Built target grid_map_msgs__rosidl_generator_c
+[11.222s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.229s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.230s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.919s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/msg/grid_map_info__type_support.cpp.o[0m
+[14.635s] [ 23%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/msg/grid_map_info__type_support.cpp.o[0m
+[14.804s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/msg/grid_map__type_support.cpp.o[0m
+[14.829s] [ 26%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/msg/detail/dds_fastrtps/grid_map_info__type_support.cpp.o[0m
+[14.914s] [ 28%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/set_grid_map__type_support.cpp.o[0m
+[15.038s] [ 29%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/get_grid_map__type_support.cpp.o[0m
+[15.095s] [ 30%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/msg/detail/grid_map_info__type_support.cpp.o[0m
+[15.179s] [ 32%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/get_grid_map_info__type_support.cpp.o[0m
+[15.360s] [ 33%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/process_file__type_support.cpp.o[0m
+[15.396s] [ 35%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/msg/detail/grid_map_info__type_support_c.cpp.o[0m
+[15.476s] [ 36%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/msg/grid_map__type_support.cpp.o[0m
+[15.575s] [ 38%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_c.so[0m
+[15.818s] [ 38%] Built target grid_map_msgs__rosidl_typesupport_c
+[15.852s] [ 39%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/msg/detail/grid_map_info__type_support.c.o[0m
+[15.884s] [ 40%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/msg/detail/dds_fastrtps/grid_map__type_support.cpp.o[0m
+[16.119s] [ 42%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/msg/detail/grid_map__type_support.c.o[0m
+[16.537s] [ 43%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/set_grid_map__type_support.c.o[0m
+[16.818s] [ 45%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/get_grid_map__type_support.c.o[0m
+[16.864s] [ 46%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/set_grid_map__type_support.cpp.o[0m
+[16.882s] [ 47%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/msg/detail/grid_map__type_support.cpp.o[0m
+[16.898s] [ 49%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/set_grid_map__type_support.cpp.o[0m
+[16.992s] [ 50%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/get_grid_map_info__type_support.c.o[0m
+[17.092s] [ 52%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/process_file__type_support.c.o[0m
+[17.191s] [ 53%] [32m[1mLinking C shared library libgrid_map_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.281s] [ 53%] Built target grid_map_msgs__rosidl_typesupport_introspection_c
+[17.335s] [ 54%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/get_grid_map__type_support.cpp.o[0m
+[17.372s] [ 56%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/msg/detail/grid_map__type_support_c.cpp.o[0m
+[18.379s] [ 57%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/get_grid_map__type_support.cpp.o[0m
+[18.951s] [ 59%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/get_grid_map_info__type_support.cpp.o[0m
+[19.089s] [ 60%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/process_file__type_support.cpp.o[0m
+[19.521s] [ 61%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/set_grid_map__type_support_c.cpp.o[0m
+[19.943s] [ 63%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/get_grid_map_info__type_support.cpp.o[0m
+[20.152s] [ 64%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/set_grid_map__type_support.cpp.o[0m
+[20.294s] [ 66%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/get_grid_map__type_support_c.cpp.o[0m
+[21.199s] [ 67%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/process_file__type_support.cpp.o[0m
+[21.272s] [ 69%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/get_grid_map_info__type_support_c.cpp.o[0m
+[21.278s] [ 70%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/process_file__type_support_c.cpp.o[0m
+[21.506s] [ 71%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.944s] [ 71%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_cpp
+[21.997s] [ 73%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/get_grid_map__type_support.cpp.o[0m
+[22.515s] [ 74%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_cpp.so[0m
+[22.530s] [ 76%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/get_grid_map_info__type_support.cpp.o[0m
+[22.595s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/process_file__type_support.cpp.o[0m
+[22.707s] [ 77%] Built target grid_map_msgs__rosidl_typesupport_cpp
+[23.171s] [ 78%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.450s] [ 78%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c
+[24.419s] [ 80%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[24.816s] [ 80%] Built target grid_map_msgs__rosidl_typesupport_introspection_cpp
+[24.903s] [ 80%] Built target grid_map_msgs
+[24.944s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.582s] [ 81%] Built target grid_map_msgs__py
+[28.617s] [ 84%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/msg/_grid_map_info_s.c.o[0m
+[28.618s] [ 84%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_get_grid_map_s.c.o[0m
+[28.618s] [ 85%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_get_grid_map_info_s.c.o[0m
+[28.632s] [ 90%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_set_grid_map_s.c.o[0m
+[28.633s] [ 90%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/msg/_grid_map_s.c.o[0m
+[28.635s] [ 90%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_process_file_s.c.o[0m
+[29.140s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/libgrid_map_msgs__rosidl_generator_py.so[0m
+[29.218s] [ 91%] Built target grid_map_msgs__rosidl_generator_py
+[29.256s] [ 94%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.256s] [ 94%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[29.258s] [ 95%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[29.794s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[29.803s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[29.820s] [100%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[29.874s] [100%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c__pyext
+[29.887s] [100%] Built target grid_map_msgs__rosidl_typesupport_c__pyext
+[29.904s] [100%] Built target grid_map_msgs__rosidl_typesupport_introspection_c__pyext
+[29.928s] Invoked command in '/home/wego/drive_ws/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:/home/wego/wego_ws/install/yolo_bringup:/home/wego/wego_ws/install/yolo_msgs:/home/wego/wego_ws/install/ydlidar_ros2_driver:/home/wego/wego_ws/install/wego_msgs:/home/wego/wego_ws/install/wego_2d_nav:/home/wego/wego_ws/install/wego:/home/wego/wego_ws/install/robot_localization:/home/wego/wego_ws/install/orbbec_description:/home/wego/wego_ws/install/orbbec_camera:/home/wego/wego_ws/install/orbbec_camera_msgs:/home/wego/wego_ws/install/nav2_bringup:/home/wego/wego_ws/install/navigation2:/home/wego/wego_ws/install/nav2_smoother:/home/wego/wego_ws/install/nav2_rotation_shim_controller:/home/wego/wego_ws/install/nav2_graceful_controller:/home/wego/wego_ws/install/nav2_dwb_controller:/home/wego/wego_ws/install/nav2_controller:/home/wego/wego_ws/install/dwb_plugins:/home/wego/wego_ws/install/dwb_critics:/home/wego/wego_ws/install/dwb_core:/home/wego/wego_ws/install/nav_2d_utils:/home/wego/wego_ws/install/dwb_msgs:/home/wego/wego_ws/install/nav_2d_msgs:/home/wego/wego_ws/install/nav2_waypoint_follower:/home/wego/wego_ws/install/nav2_theta_star_planner:/home/wego/wego_ws/install/nav2_smac_planner:/home/wego/wego_ws/install/nav2_route:/home/wego/wego_ws/install/nav2_regulated_pure_pursuit_controller:/home/wego/wego_ws/install/nav2_planner:/home/wego/wego_ws/install/nav2_navfn_planner:/home/wego/wego_ws/install/nav2_mppi_controller:/home/wego/wego_ws/install/nav2_constrained_smoother:/home/wego/wego_ws/install/nav2_bt_navigator:/home/wego/wego_ws/install/nav2_behaviors:/home/wego/wego_ws/install/nav2_core:/home/wego/wego_ws/install/nav2_collision_monitor:/home/wego/wego_ws/install/costmap_queue:/home/wego/wego_ws/install/nav2_costmap_2d:/home/wego/wego_ws/install/nav2_voxel_grid:/home/wego/wego_ws/install/nav2_velocity_smoother:/home/wego/wego_ws/install/nav2_rviz_plugins:/home/wego/wego_ws/install/nav2_map_server:/home/wego/wego_ws/install/nav2_lifecycle_manager:/home/wego/wego_ws/install/nav2_behavior_tree:/home/wego/wego_ws/install/nav2_amcl:/home/wego/wego_ws/install/nav2_util:/home/wego/wego_ws/install/nav2_msgs:/home/wego/wego_ws/install/nav2_common:/home/wego/wego_ws/install/limo_base:/home/wego/wego_ws/install/limo_msgs:/home/wego/wego_ws/install/limo_description:/home/wego/wego_ws/install/lift_ctr:/home/wego/wego_ws/install/dl_ros2_msgs:/home/wego/wego_ws/install/yolo_ros:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --build /home/wego/drive_ws/build/grid_map_msgs -- -j6 -l6
+[29.932s] Invoking command in '/home/wego/drive_ws/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:/home/wego/wego_ws/install/yolo_bringup:/home/wego/wego_ws/install/yolo_msgs:/home/wego/wego_ws/install/ydlidar_ros2_driver:/home/wego/wego_ws/install/wego_msgs:/home/wego/wego_ws/install/wego_2d_nav:/home/wego/wego_ws/install/wego:/home/wego/wego_ws/install/robot_localization:/home/wego/wego_ws/install/orbbec_description:/home/wego/wego_ws/install/orbbec_camera:/home/wego/wego_ws/install/orbbec_camera_msgs:/home/wego/wego_ws/install/nav2_bringup:/home/wego/wego_ws/install/navigation2:/home/wego/wego_ws/install/nav2_smoother:/home/wego/wego_ws/install/nav2_rotation_shim_controller:/home/wego/wego_ws/install/nav2_graceful_controller:/home/wego/wego_ws/install/nav2_dwb_controller:/home/wego/wego_ws/install/nav2_controller:/home/wego/wego_ws/install/dwb_plugins:/home/wego/wego_ws/install/dwb_critics:/home/wego/wego_ws/install/dwb_core:/home/wego/wego_ws/install/nav_2d_utils:/home/wego/wego_ws/install/dwb_msgs:/home/wego/wego_ws/install/nav_2d_msgs:/home/wego/wego_ws/install/nav2_waypoint_follower:/home/wego/wego_ws/install/nav2_theta_star_planner:/home/wego/wego_ws/install/nav2_smac_planner:/home/wego/wego_ws/install/nav2_route:/home/wego/wego_ws/install/nav2_regulated_pure_pursuit_controller:/home/wego/wego_ws/install/nav2_planner:/home/wego/wego_ws/install/nav2_navfn_planner:/home/wego/wego_ws/install/nav2_mppi_controller:/home/wego/wego_ws/install/nav2_constrained_smoother:/home/wego/wego_ws/install/nav2_bt_navigator:/home/wego/wego_ws/install/nav2_behaviors:/home/wego/wego_ws/install/nav2_core:/home/wego/wego_ws/install/nav2_collision_monitor:/home/wego/wego_ws/install/costmap_queue:/home/wego/wego_ws/install/nav2_costmap_2d:/home/wego/wego_ws/install/nav2_voxel_grid:/home/wego/wego_ws/install/nav2_velocity_smoother:/home/wego/wego_ws/install/nav2_rviz_plugins:/home/wego/wego_ws/install/nav2_map_server:/home/wego/wego_ws/install/nav2_lifecycle_manager:/home/wego/wego_ws/install/nav2_behavior_tree:/home/wego/wego_ws/install/nav2_amcl:/home/wego/wego_ws/install/nav2_util:/home/wego/wego_ws/install/nav2_msgs:/home/wego/wego_ws/install/nav2_common:/home/wego/wego_ws/install/limo_base:/home/wego/wego_ws/install/limo_msgs:/home/wego/wego_ws/install/limo_description:/home/wego/wego_ws/install/lift_ctr:/home/wego/wego_ws/install/dl_ros2_msgs:/home/wego/wego_ws/install/yolo_ros:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --install /home/wego/drive_ws/build/grid_map_msgs
+[29.946s] -- Install configuration: "Release"
+[29.947s] -- Execute custom install script
+[29.948s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/ament_index/resource_index/rosidl_interfaces/grid_map_msgs
+[29.965s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__functions.h
+[29.980s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__struct.h
+[29.996s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__type_support.h
+[30.012s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__functions.h
+[30.027s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__struct.h
+[30.042s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__type_support.h
+[30.058s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map.h
+[30.078s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map_info.h
+[30.097s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_generator_c__visibility_control.h
+[30.115s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__functions.h
+[30.138s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__struct.h
+[30.158s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__type_support.h
+[30.176s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__functions.h
+[30.199s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__struct.h
+[30.222s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__type_support.h
+[30.241s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__functions.h
+[30.260s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__struct.h
+[30.282s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__type_support.h
+[30.299s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__functions.h
+[30.315s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__struct.h
+[30.330s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__type_support.h
+[30.346s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map.h
+[30.361s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map_info.h
+[30.376s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/process_file.h
+[30.391s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/set_grid_map.h
+[30.407s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.sh
+[30.423s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.dsv
+[30.440s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_c.h
+[30.456s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_c.h
+[30.472s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.488s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_c.h
+[30.504s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_c.h
+[30.529s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_c.h
+[30.545s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_c.h
+[30.566s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__builder.hpp
+[30.580s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__struct.hpp
+[30.595s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__traits.hpp
+[30.610s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__type_support.hpp
+[30.626s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__builder.hpp
+[30.645s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__struct.hpp
+[30.660s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__traits.hpp
+[30.675s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__type_support.hpp
+[30.690s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map.hpp
+[30.706s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map_info.hpp
+[30.722s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.737s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__builder.hpp
+[30.752s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__struct.hpp
+[30.767s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__traits.hpp
+[30.782s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__type_support.hpp
+[30.797s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__builder.hpp
+[30.812s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__struct.hpp
+[30.832s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__traits.hpp
+[30.847s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__type_support.hpp
+[30.864s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__builder.hpp
+[30.880s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__struct.hpp
+[30.896s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__traits.hpp
+[30.911s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__type_support.hpp
+[30.926s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__builder.hpp
+[30.943s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__struct.hpp
+[30.958s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__traits.hpp
+[30.973s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__type_support.hpp
+[30.988s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map.hpp
+[31.003s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map_info.hpp
+[31.017s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/process_file.hpp
+[31.033s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/set_grid_map.hpp
+[31.050s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[31.065s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[31.080s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.095s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[31.111s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[31.126s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_cpp.hpp
+[31.144s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[31.161s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_c.h
+[31.176s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_c.h
+[31.191s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.206s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_c.h
+[31.222s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_c.h
+[31.238s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_c.h
+[31.253s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_c.h
+[31.270s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_cpp.hpp
+[31.285s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[31.300s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[31.315s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[31.333s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_cpp.hpp
+[31.349s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[31.364s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.sh
+[31.382s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.dsv
+[31.399s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.4.0-py3.10.egg-info/PKG-INFO
+[31.415s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.4.0-py3.10.egg-info/SOURCES.txt
+[31.433s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.4.0-py3.10.egg-info/dependency_links.txt
+[31.449s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.4.0-py3.10.egg-info/top_level.txt
+[31.466s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/__init__.py
+[31.482s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_c.c
+[31.496s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[31.511s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[31.534s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[31.550s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[31.565s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[31.580s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/libgrid_map_msgs__rosidl_generator_py.so
+[31.595s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/__init__.py
+[31.615s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map.py
+[31.631s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info.py
+[31.647s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info_s.c
+[31.662s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_s.c
+[31.677s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/__init__.py
+[31.692s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map.py
+[31.708s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info.py
+[31.723s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info_s.c
+[31.742s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_s.c
+[31.758s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file.py
+[31.773s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file_s.c
+[31.789s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map.py
+[31.804s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map_s.c
+[31.821s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[31.824s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[31.824s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[31.825s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.idl
+[31.841s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.idl
+[31.857s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.idl
+[31.872s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.idl
+[31.887s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.idl
+[31.903s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.idl
+[31.918s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.msg
+[31.934s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.msg
+[31.949s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.srv
+[31.964s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Request.msg
+[31.979s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Response.msg
+[31.995s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.srv
+[32.011s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Request.msg
+[32.027s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Response.msg
+[32.045s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.srv
+[32.060s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Request.msg
+[32.075s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Response.msg
+[32.091s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.srv
+[32.106s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Request.msg
+[32.121s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Response.msg
+[32.137s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/ament_index/resource_index/package_run_dependencies/grid_map_msgs
+[32.153s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/ament_index/resource_index/parent_prefix_path/grid_map_msgs
+[32.168s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.sh
+[32.184s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.dsv
+[32.201s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/path.sh
+[32.217s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/environment/path.dsv
+[32.233s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.bash
+[32.249s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.sh
+[32.264s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.zsh
+[32.279s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/local_setup.dsv
+[32.293s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/package.dsv
+[32.309s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/ament_index/resource_index/packages/grid_map_msgs
+[32.324s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake-extras.cmake
+[32.340s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.355s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.374s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[32.389s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[32.405s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[32.420s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[32.436s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig.cmake
+[32.451s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig-version.cmake
+[32.467s] -- Symlinking: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/package.xml
+[32.482s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_c.so
+[32.483s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_c.so" to ""
+[32.483s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so
+[32.484s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[32.484s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so
+[32.486s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[32.486s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_c.so
+[32.487s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_c.so" to ""
+[32.487s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_c.so
+[32.488s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_c.so" to ""
+[32.489s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so
+[32.490s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[32.490s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_cpp.so
+[32.491s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_cpp.so" to ""
+[32.598s] Listing '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs'...
+[32.598s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/__init__.py'...
+[32.598s] Listing '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg'...
+[32.598s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/__init__.py'...
+[32.598s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map.py'...
+[32.599s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info.py'...
+[32.599s] Listing '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv'...
+[32.599s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/__init__.py'...
+[32.599s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map.py'...
+[32.599s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info.py'...
+[32.599s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file.py'...
+[32.599s] Compiling '/home/wego/drive_ws/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map.py'...
+[32.611s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_py.so
+[32.611s] -- Set runtime path of "/home/wego/drive_ws/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_py.so" to ""
+[32.612s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cExport.cmake
+[32.612s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cExport-release.cmake
+[32.612s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[32.612s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[32.613s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cppExport.cmake
+[32.613s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[32.613s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[32.614s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport.cmake
+[32.614s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[32.615s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport.cmake
+[32.615s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport-release.cmake
+[32.616s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[32.616s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[32.617s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport.cmake
+[32.617s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport-release.cmake
+[32.618s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_pyExport.cmake
+[32.618s] -- Installing: /home/wego/drive_ws/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_pyExport-release.cmake
+[32.626s] Invoked command in '/home/wego/drive_ws/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wego/drive_ws/install/grid_map_cmake_helpers:/home/wego/wego_ws/install/yolo_bringup:/home/wego/wego_ws/install/yolo_msgs:/home/wego/wego_ws/install/ydlidar_ros2_driver:/home/wego/wego_ws/install/wego_msgs:/home/wego/wego_ws/install/wego_2d_nav:/home/wego/wego_ws/install/wego:/home/wego/wego_ws/install/robot_localization:/home/wego/wego_ws/install/orbbec_description:/home/wego/wego_ws/install/orbbec_camera:/home/wego/wego_ws/install/orbbec_camera_msgs:/home/wego/wego_ws/install/nav2_bringup:/home/wego/wego_ws/install/navigation2:/home/wego/wego_ws/install/nav2_smoother:/home/wego/wego_ws/install/nav2_rotation_shim_controller:/home/wego/wego_ws/install/nav2_graceful_controller:/home/wego/wego_ws/install/nav2_dwb_controller:/home/wego/wego_ws/install/nav2_controller:/home/wego/wego_ws/install/dwb_plugins:/home/wego/wego_ws/install/dwb_critics:/home/wego/wego_ws/install/dwb_core:/home/wego/wego_ws/install/nav_2d_utils:/home/wego/wego_ws/install/dwb_msgs:/home/wego/wego_ws/install/nav_2d_msgs:/home/wego/wego_ws/install/nav2_waypoint_follower:/home/wego/wego_ws/install/nav2_theta_star_planner:/home/wego/wego_ws/install/nav2_smac_planner:/home/wego/wego_ws/install/nav2_route:/home/wego/wego_ws/install/nav2_regulated_pure_pursuit_controller:/home/wego/wego_ws/install/nav2_planner:/home/wego/wego_ws/install/nav2_navfn_planner:/home/wego/wego_ws/install/nav2_mppi_controller:/home/wego/wego_ws/install/nav2_constrained_smoother:/home/wego/wego_ws/install/nav2_bt_navigator:/home/wego/wego_ws/install/nav2_behaviors:/home/wego/wego_ws/install/nav2_core:/home/wego/wego_ws/install/nav2_collision_monitor:/home/wego/wego_ws/install/costmap_queue:/home/wego/wego_ws/install/nav2_costmap_2d:/home/wego/wego_ws/install/nav2_voxel_grid:/home/wego/wego_ws/install/nav2_velocity_smoother:/home/wego/wego_ws/install/nav2_rviz_plugins:/home/wego/wego_ws/install/nav2_map_server:/home/wego/wego_ws/install/nav2_lifecycle_manager:/home/wego/wego_ws/install/nav2_behavior_tree:/home/wego/wego_ws/install/nav2_amcl:/home/wego/wego_ws/install/nav2_util:/home/wego/wego_ws/install/nav2_msgs:/home/wego/wego_ws/install/nav2_common:/home/wego/wego_ws/install/limo_base:/home/wego/wego_ws/install/limo_msgs:/home/wego/wego_ws/install/limo_description:/home/wego/wego_ws/install/lift_ctr:/home/wego/wego_ws/install/dl_ros2_msgs:/home/wego/wego_ws/install/yolo_ros:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --install /home/wego/drive_ws/build/grid_map_msgs

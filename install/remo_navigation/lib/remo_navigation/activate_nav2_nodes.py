@@ -1,0 +1,1 @@
+/home/wego/drive_ws/src/remo_navigation/scripts/activate_nav2_nodes.py

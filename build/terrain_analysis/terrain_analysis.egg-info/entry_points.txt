@@ -1,0 +1,3 @@
+[console_scripts]
+terrain_analysis_node = terrain_analysis.terrain_analysis_node:main
+terrain_analysis_node_limo = terrain_analysis.terrain_analysis_node_limo:main

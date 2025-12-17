@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating terrain_analysis.egg-info
+writing terrain_analysis.egg-info/PKG-INFO
+writing dependency_links to terrain_analysis.egg-info/dependency_links.txt
+writing entry points to terrain_analysis.egg-info/entry_points.txt
+writing requirements to terrain_analysis.egg-info/requires.txt
+writing top-level names to terrain_analysis.egg-info/top_level.txt
+writing manifest file 'terrain_analysis.egg-info/SOURCES.txt'
+reading manifest file 'terrain_analysis.egg-info/SOURCES.txt'
+writing manifest file 'terrain_analysis.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wego/drive_ws/install/terrain_analysis/lib/python3.10/site-packages/terrain-analysis.egg-link (link to .)
+Installing terrain_analysis_node script to /home/wego/drive_ws/install/terrain_analysis/lib/terrain_analysis
+Installing terrain_analysis_node_limo script to /home/wego/drive_ws/install/terrain_analysis/lib/terrain_analysis
+
+Installed /home/wego/drive_ws/build/terrain_analysis
+running symlink_data
+creating /home/wego/drive_ws/install/terrain_analysis/share/ament_index
+creating /home/wego/drive_ws/install/terrain_analysis/share/ament_index/resource_index
+creating /home/wego/drive_ws/install/terrain_analysis/share/ament_index/resource_index/packages
+symbolically linking /home/wego/drive_ws/build/terrain_analysis/resource/terrain_analysis -> /home/wego/drive_ws/install/terrain_analysis/share/ament_index/resource_index/packages
+symbolically linking /home/wego/drive_ws/build/terrain_analysis/package.xml -> /home/wego/drive_ws/install/terrain_analysis/share/terrain_analysis

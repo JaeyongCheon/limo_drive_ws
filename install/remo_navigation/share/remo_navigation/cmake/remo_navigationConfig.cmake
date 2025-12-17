@@ -1,0 +1,1 @@
+/home/wego/drive_ws/build/remo_navigation/ament_cmake_core/remo_navigationConfig.cmake

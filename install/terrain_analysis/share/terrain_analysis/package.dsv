@@ -1,0 +1,9 @@
+source;share/terrain_analysis/hook/pythonpath.ps1
+source;share/terrain_analysis/hook/pythonpath.dsv
+source;share/terrain_analysis/hook/pythonpath.sh
+source;share/terrain_analysis/hook/ament_prefix_path.ps1
+source;share/terrain_analysis/hook/ament_prefix_path.dsv
+source;share/terrain_analysis/hook/ament_prefix_path.sh
+source;../../build/terrain_analysis/share/terrain_analysis/hook/pythonpath_develop.ps1
+source;../../build/terrain_analysis/share/terrain_analysis/hook/pythonpath_develop.dsv
+source;../../build/terrain_analysis/share/terrain_analysis/hook/pythonpath_develop.sh
