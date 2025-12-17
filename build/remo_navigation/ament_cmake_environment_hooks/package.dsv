@@ -1,0 +1,4 @@
+source;share/remo_navigation/local_setup.bash
+source;share/remo_navigation/local_setup.dsv
+source;share/remo_navigation/local_setup.sh
+source;share/remo_navigation/local_setup.zsh

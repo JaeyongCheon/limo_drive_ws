@@ -1,0 +1,23 @@
+[0.043s] Invoking command in '/home/wego/drive_ws/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --build /home/wego/drive_ws/build/grid_map_cmake_helpers -- -j6 -l6
+[0.141s] Invoked command in '/home/wego/drive_ws/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --build /home/wego/drive_ws/build/grid_map_cmake_helpers -- -j6 -l6
+[0.165s] Invoking command in '/home/wego/drive_ws/build/grid_map_cmake_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --install /home/wego/drive_ws/build/grid_map_cmake_helpers
+[0.182s] -- Install configuration: ""
+[0.183s] -- Execute custom install script
+[0.185s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/ament_index/resource_index/package_run_dependencies/grid_map_cmake_helpers
+[0.185s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/ament_index/resource_index/parent_prefix_path/grid_map_cmake_helpers
+[0.185s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/ament_prefix_path.sh
+[0.186s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/ament_prefix_path.dsv
+[0.186s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/path.sh
+[0.186s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/environment/path.dsv
+[0.186s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.bash
+[0.188s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.sh
+[0.188s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.zsh
+[0.188s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/local_setup.dsv
+[0.188s] -- Symlinking: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.dsv
+[0.205s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/ament_index/resource_index/packages/grid_map_cmake_helpers
+[0.206s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpers-extras.cmake
+[0.206s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpersConfig.cmake
+[0.206s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_cmake_helpersConfig-version.cmake
+[0.206s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/package.xml
+[0.207s] -- Up-to-date symlink: /home/wego/drive_ws/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake/grid_map_package.cmake
+[0.214s] Invoked command in '/home/wego/drive_ws/build/grid_map_cmake_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wego/wego_ws/install/limo_ros2_application:/home/wego/wego_ws/install/nav2_simple_commander:/home/wego/wego_ws/install/dl_ros2_application:/home/wego/Downloads/backups/wego_ws/install/limo_ros2_application:/home/wego/Downloads/backups/wego_ws/install/nav2_simple_commander:/home/wego/Downloads/backups/wego_ws/install/dl_ros2_application:/opt/ros/humble /usr/bin/cmake --install /home/wego/drive_ws/build/grid_map_cmake_helpers
